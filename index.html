@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Frontly AI Agent Demo</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #f4f7fb;
+      color: #1a2433;
+      text-align: center;
+      padding: 24px;
+    }
+    .card {
+      max-width: 520px;
+      background: #fff;
+      padding: 40px 32px;
+      border-radius: 16px;
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+    }
+    h1 { margin: 0 0 12px; font-size: 1.8rem; }
+    p { margin: 0; line-height: 1.6; color: #4a5568; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Try our AI front desk agent</h1>
+    <p>Click the chat bubble at the bottom right of this page to start a conversation.</p>
+  </div>
+
+  <!-- Frontly widget -->
+  <script async
+    src="https://uk-voice.frontly.in/frontly.js"
+    data-public-key="fk_pub_77f7e6d3340423be5edee52fed87831fa927f73795a208fd5ffc8bb4b9ae62c6"
+    data-business-id="biz_8f199e0a48f8fc1f"
+    data-bot-id="bot_1794215575517669441"
+    data-mode="chat"
+    data-position="bottom-right"></script>
+</body>
+</html>
